@@ -2,6 +2,7 @@
 module sampleApp{
 
 
+
 export class main{
     constructor(){
         console.log("I'm a real spa!")
@@ -10,6 +11,10 @@ export class main{
     public add(x: number, y: number): number{
         return x + y;
     }
+
+    
+
+
 }
 
 }
